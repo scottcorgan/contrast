@@ -1,0 +1,33 @@
+{
+  "name": "contrast",
+  "version": "1.0.0",
+  "description": "Determine if the given color is light or dark",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/contrast.git"
+  },
+  "keywords": [
+    "background",
+    "light",
+    "dark",
+    "color",
+    "hex",
+    "rgb"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/contrast/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/contrast",
+  "devDependencies": {
+    "tap-spec": "^2.1.0"
+  },
+  "dependencies": {
+    "hex-to-rgb": "^1.0.0"
+  }
+}

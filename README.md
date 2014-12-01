@@ -1,6 +1,8 @@
 # contrast
 
-Determine if the given color is light or dark
+Determine if the given color is light or dark.
+
+This is useful for dynamically deciding which color a foreground color should be when placed over a given background color.
 
 ## Install
 

@@ -13,8 +13,17 @@ npm install contrast --save
 ```js
 var contrast = require('contrast');
 
-console.log(contrast('000000')); // OUTPUTS: dark
-console.log(contrast('#ffffff')); // OUTPUTS: light
+var el = document.querySelector('#some-element');
+var bgColor = e.style.backgroundColor;
+
+if (contrast(bgColor) === 'light') {
+  textColor = '#000';
+}
+else {
+  textColor = '#fff'
+}
+
+el.style.color = textColor;
 ```
 
 ## Run Tests

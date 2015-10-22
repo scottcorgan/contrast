@@ -1,6 +1,6 @@
 {
   "name": "contrast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Determine if the given color is light or dark",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "tap-spec": "^2.1.0"
   },
   "dependencies": {
-    "hex-to-rgb": "^1.0.0"
+    "hex-to-rgb": "^1.0.1"
   }
 }

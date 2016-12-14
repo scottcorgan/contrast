@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/scottcorgan/contrast",
   "devDependencies": {
-    "tap-spec": "^2.1.0"
+    "tap-spec": "^2.1.0",
+    "tape": "^4.6.3"
   },
   "dependencies": {
     "hex-to-rgb": "^1.0.0"
